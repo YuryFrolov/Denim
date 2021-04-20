@@ -1,0 +1,14 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 64px;
+    background-color: $nimes-black;
+}
+
+.btn-text {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}

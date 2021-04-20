@@ -1,0 +1,26 @@
+.more-btn {
+    font-size: 1.148em;
+    text-align: center;
+    font-weight: 500;
+    width: 80px;
+
+    margin-top: 20px;
+
+
+    padding-bottom: 2px;
+    border-bottom: 2px solid $nimes-black;
+    
+
+    @media screen and (min-width: 610px) {
+        margin-top: 0;
+        position: absolute;
+        top: 124px;
+        right: 20px;
+    }
+
+    @media screen and (min-width: 950px) {
+        position: absolute;
+        top: 123px;
+        right: 80px;
+    }
+}

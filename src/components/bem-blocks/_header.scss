@@ -1,0 +1,97 @@
+$block-height: 24px;
+$nimes-black: #151c22;
+
+.header__container {
+    position: relative;
+    min-height: 68px;
+
+    padding-top: 23px;  /* переопределение паддинга
+                        для pixel perfect */
+}
+
+/////////////////////////////
+/* B U R G E R */
+.nav__checkbox {
+    display: none;
+}
+
+.nav__burger {
+    height: 22px; /* переопределение высоты
+    для pixel perfect */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav__burger-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $nimes-black;
+}
+
+@media screen and (min-width:950px) {
+    .nav__burger-wrapper {
+        display: none;
+        width: 0;
+    }
+}
+
+//////////////////////////
+/* header__nav-container */
+.header__nav-container {}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    max-width: 350px;
+    @media (max-width: 949px) {
+        display: none;
+    }
+    
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.nav__link {
+    margin-top: 2px;
+}
+
+.nav__controls {
+    display: flex;
+    column-gap: 25px;
+}
+
+.search__img,
+.cart__img {
+    display: block;
+    cursor: pointer;
+    height: 24px;
+}
+
+//////////////////////////
+/* header__logo-container */
+
+.header__logo-container {
+/*  двигаем вверх блок с логотипом
+    на значение высоты блока с навигацией */
+    margin-top: -20px;
+    height: 20px;
+}
+
+.logo {
+    position: absolute;//
+    top: 0;//
+    right: 0;// абсолютное выравнивание по центру
+    bottom: 0;//
+    left: 0;//
+    margin: auto;//
+    height: 20px;
+}

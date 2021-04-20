@@ -1,7 +1,7 @@
 {
-	"name": "Easy-webdev-startpack",
-	"version": "2.1.1",
-	"description": "HTML5+CSS3 template for easy start website project'",
+	"name": "denim-training-project",
+	"version": "1.0.0",
+	"description": "training project",
 	"main": "gulpfile.js",
 	"devDependencies": {
 		"@babel/core": "^7.12.10",
@@ -32,6 +32,7 @@
 		"gulp-uglify-es": "^2.0.0",
 		"imagemin-jpeg-recompress": "^7.0.0",
 		"imagemin-pngquant": "^9.0.1",
+		"pixel-glass": "^1.0.13",
 		"vinyl-ftp": "^0.6.1"
 	},
 	"dependencies": {
@@ -42,11 +43,10 @@
 		"php": "gulp dev-php",
 		"build": "gulp style && gulp html && gulp php && gulp js && gulp build_js && gulp json && gulp images && gulp fonts"
 	},
-	"repository": "https://github.com/budfy/Easy-webdev-startpack.git",
-	"author": "Roman Serdyuk",
+	"repository": "https://github.com/yuryfrolov/denim.git",
+	"author": "Yury Frolov",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/budfy/Startpack_Gulp4/issues"
-	},
-	"homepage": "https://github.com/budfy/Startpack_Gulp4#readme"
+		"url": "https://github.com/yuryfrolov/denim/issues"
+	}
 }

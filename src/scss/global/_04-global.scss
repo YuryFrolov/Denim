@@ -1,6 +1,11 @@
+$nimes-black: #151c22;
+
 html {
 	box-sizing: border-box;
 	font-size: 16px;
+	min-width: 320px;
+	font-family: 'Work Sans', sans-serif;
+	color: $nimes-black;
 }
 
 *,
@@ -28,6 +33,24 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #151c22;// nimes-black
+}
+
+img {
+	display: block;
+	max-width: 100%;
 }
 
 button:focus,

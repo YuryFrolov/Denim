@@ -1,0 +1,70 @@
+$nimes-black: #151c22;
+
+.products {}
+
+.products__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    /* отрицательные горизонтальные марджины
+    чтобы компенсировать отступы айтемов */
+    margin-bottom: -8px;
+}
+
+.products__item {
+    margin-left: 15px;// горизонтальные марджины вместо gap flex
+    margin-right: 15px;//
+    margin-bottom: 30px;
+}
+
+.products__img-wrapper {
+    display: block;
+    margin-bottom: 21px;
+    width: 270px;
+    height: 349px;
+}
+
+.products__img {
+
+}
+
+.products__name {
+    margin-bottom: 9px;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.products__price {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.products__more {
+    align-self: center;
+    font-size: 1.148em;
+    width: 80px;
+    text-align: center;
+    padding-bottom: 2px;
+    font-weight: 500;
+    border-bottom: 2px solid $nimes-black;
+
+    @media screen and (min-width: 610px) {
+        position: absolute;
+        top: 124px;
+        right: 20px;
+    }
+
+    @media screen and (min-width: 950px) {
+        position: absolute;
+        top: 123px;
+        right: 80px;
+    }
+}

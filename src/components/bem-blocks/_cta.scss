@@ -1,0 +1,135 @@
+$nimes-black: #151c22;
+
+.cta {
+    position: relative;
+    // отдельно определяем максимальный размер и центрируем
+    max-width: 1330px;
+    margin: 0 auto;
+    // индивидуальные паддинги контейнера
+    @media screen and ( min-width: 1330px ) {
+        padding-left: 80px;
+        padding-right: 80px;    
+    }
+
+    // флексы для врапперов текста и имеджа
+    @media screen and (min-width: 950px) {
+        display: flex;
+        align-items: center;
+        padding-right: 40px;
+    }
+}
+
+.cta__arrow-wrapper {
+    position: absolute;
+    left: 25px;
+    bottom: 45px;
+    @media screen and (max-width: 949px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 950px) {
+        left: 40px;
+    }
+
+    @media screen and (min-width: 1330px) {
+        left: 80px;
+    }
+}
+
+.cta__text-wrapper {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 32px;
+
+    @media screen and (min-width: 480px) {
+        bottom: 51px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 950px) {
+        align-items: flex-start;
+        top: 186px;
+        left: 110px;
+    }
+
+    @media screen and (min-width: 1330px) {
+        left: 150px;
+    }
+}
+
+.cta__slogan {
+    font: 300 1.230rem 'Work Sans', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+
+    @media screen and (min-width: 950px) {
+        color: $nimes-black;
+    }
+}
+
+.cta__title {
+    font: 400 109px 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+
+    @media screen and (min-width: 610px) {
+        color: $nimes-black;
+        font-size: 128px;
+    }
+}
+
+.cta__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 64px;
+    background-color: $nimes-black;
+}
+
+.cta__btn-text {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.cta__img-wrapper {
+    padding-top: 31px;
+    padding-bottom: 32px;
+    background-color: red;
+    @media screen and (min-width: 480px)  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    background: url(../img/diagonal-ltr.png) top left/173px 130px no-repeat,
+                url(../img/diagonal-rtl.png) bottom right/173px 130px no-repeat;
+
+    @media screen and ( min-width: 480px ) {
+        background: url(../img/diagonal-ltr.png) top left/232px 176px no-repeat,
+                url(../img/diagonal-rtl.png) bottom right/232px 176px no-repeat;
+
+    }
+
+    width: 100%;
+    margin: 0 auto;
+    @media screen and (min-width: 530px) {
+        max-width: 530px;
+    }
+
+    @media screen and (min-width: 950px) {
+        margin-right: 0;
+    }
+
+    @media screen and (min-width: 1330px) {
+        margin-right: 40px;
+    }
+}
+
+.cta__img {
+    margin: 0 auto;
+}

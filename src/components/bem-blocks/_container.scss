@@ -1,0 +1,56 @@
+//////////////////////////
+/* горизонтальные отступы на все страницы */
+.container {
+    position: relative;//
+
+    min-width: 320px;
+    max-width: 1330px;
+    margin: 0 auto;
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media screen and (min-width:610px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width:950px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width:1330px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+///////////////////////////////////////
+/* вертикальные отступы поблочно */
+.header__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+   margin-top: 60px;
+   @media screen and (min-width: 610px) {
+       margin-top: 120px;
+   }
+}
+
+
+.products__container,
+.news__container {
+    padding-top: 60px;
+    @media screen and (min-width: 610px) {
+        padding-top: 120px;
+    }
+}

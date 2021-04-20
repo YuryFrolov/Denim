@@ -2,17 +2,19 @@
 <html lang="ru">
 
 @@include('components/page/_1_head.html',{
-'title': 'Easy webdev startpack - test',
-'description': 'Easy webdev startpack by budfy',
-'keywords': 'Webdev, Gulp4, html, css, js, jquery',
+'title': 'Denim - The quality you deserve',
+'description': 'Online denim shop',
+'keywords': 'Denim, jacket, overalls',
 'favicon': 'img/favicon.png'
 })
 
 <body>
 	@@include('components/page/_2_header.html')
 	<main class="main">
-		<!-- <svg class="include-svg"
-				 src="storm.svg"></svg> -->
+		@@include('components/page/_5_jumbotron.html')
+		@@include('components/page/_6_products.html')
+		@@include('components/page/_7_news.html')
+		@@include('components/page/_8_categories.html')
 	</main>
 	@@include('components/page/_3_footer.html')
 	@@include('components/page/_4_scripts.html')

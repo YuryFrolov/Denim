@@ -1,0 +1,1 @@
+let burger = document.querySelector('.nav__burger');
