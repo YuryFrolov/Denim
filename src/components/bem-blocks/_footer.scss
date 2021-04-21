@@ -23,6 +23,17 @@
     @media screen and (min-width: 950px) {
         display: flex;
     }
+
+    & > li {
+        &:not(:last-of-type) {
+            margin-bottom: 20px;
+        }
+    
+        @media screen and (min-width: 950px) {
+            margin-left: 17.5px;
+            margin-right: 17.5px;
+        }
+    }
 }
 
 .footer__link {
@@ -30,14 +41,7 @@
     font-weight: 500;
     color: #fff;
     text-align: center;
-    &:not(:last-of-type) {
-        margin-bottom: 20px;
-    }
-
-    @media screen and (min-width: 950px) {
-        margin-left: 17.5px;
-        margin-right: 17.5px;
-    }
+    display: block;
 }
 
 .footer__social {
