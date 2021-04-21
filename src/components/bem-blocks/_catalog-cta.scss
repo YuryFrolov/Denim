@@ -4,15 +4,32 @@
     max-width: 1330px;
     margin: 0 auto;
     // индивидуальные паддинги контейнера
-    @media screen and ( min-width: 1330px ) {
+    @media screen and (min-width: 1330px) {
         padding-left: 80px;
         padding-right: 80px;    
     }
-    
-    // флексы для врапперов текста и имеджа
-    @media screen and (min-width: 950px) {
-        display: flex;
-        align-items: center;
-        padding-right: 40px;
-    }
+}
+
+.catalog-cta__img-wrapper {
+    max-width: 380px;
+
+    margin-left: auto;
+
+    display: flex;//
+    align-items: center;// выравнивание картинки по середине родителя
+    justify-content: center;//
+
+    background: url(../img/diagonal-ltr.png) top right/173px 130px no-repeat,
+                url(../img/diagonal-ltr.png) bottom left/173px 130px no-repeat;
+}
+
+.catalog-cta__img {
+}
+
+.catalog-cta__title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 300px;
+    filter: none!important;//что поделать
 }
