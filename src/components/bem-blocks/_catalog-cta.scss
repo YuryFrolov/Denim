@@ -1,0 +1,18 @@
+.catalog-cta {
+    position: relative;
+    // отдельно определяем максимальный размер и центрируем
+    max-width: 1330px;
+    margin: 0 auto;
+    // индивидуальные паддинги контейнера
+    @media screen and ( min-width: 1330px ) {
+        padding-left: 80px;
+        padding-right: 80px;    
+    }
+    
+    // флексы для врапперов текста и имеджа
+    @media screen and (min-width: 950px) {
+        display: flex;
+        align-items: center;
+        padding-right: 40px;
+    }
+}

@@ -77,8 +77,11 @@ $nimes-black: #151c22;
     color: #fff;
 
     @media screen and (min-width: 610px) {
-        color: $nimes-black;
         font-size: 128px;
+    }
+
+    @media screen and (min-width: 950px) {
+        color: $nimes-black;
     }
 }
 
