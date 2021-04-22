@@ -5,6 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport"
 				content="width=device-width, initial-scale=1.0">
+  <meta 
+        content='true' name='HandheldFriendly'/>
+  <meta 
+        content='width' name='MobileOptimized'/>
+  <meta 
+        content='yes' name='apple-mobile-web-app-capable'/>
 	<meta name="description"
 				content="Online denim shop">
 	<meta name="keywords"
@@ -103,7 +109,89 @@
     </div>
 </header>
 	<main class="main">
+        <section class="card">
+    <div class="card__container container">
+
+        <div class="card__photo">
+            <button class="card__photo-control">
+                <svg class="card__photo-arrow" width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L2 11.5L12 22" stroke="#151C22" stroke-width="2"/>
+                </svg>                    
+            </button>
+            <div class="card__photo-wrapper">
+                <img class="card__photo-full" src="img/overalls-slider-1.png" alt="">
+                <ul class="card__photo-preview">
+                    <li class="card__photo-preview-item">
+                        <img class="card__photo-preview-img" src="img/overalls-slider-1.png" alt="Overalls">
+                    </li>
+                    <li class="card__photo-preview-item">
+                        <img class="card__photo-preview-img" src="img/overalls-slider-1.png" alt="Overalls">
+                    </li>
+                    <li class="card__photo-preview-item">
+                        <img class="card__photo-preview-img" src="img/overalls-slider-1.png" alt="Overalls">
+                    </li>
+                    <li class="card__photo-preview-item">
+                        <img class="card__photo-preview-img" src="img/overalls-slider-1.png" alt="Overalls">
+                    </li>
+                </ul>
+            </div>
+            <button class="card__photo-control">
+                <svg class="card__photo-arrow" width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L2 11.5L12 22" stroke="#151C22" stroke-width="2"/>
+                </svg> 
+            </button>
+        </div>
+
+        <div class="card__description"></div>
+    </div>
+</section>
+		<section class="products">
+    <div class="container products__container products--small products--large">
         
+        <h2 class="products__title section-title">You may also like</h2>
+
+        <ul class="products__list">
+            <li class="products__item">
+                <a href="" class="products__img-wrapper">
+                    <img class="products__img" src="img/overalls-1.png" alt="Jacket">
+                </a>
+
+                <p class="products__name">Overalls</p>
+                <p class="products__price">&#36;140</p>
+
+            </li>
+            <li class="products__item">
+                <a href="" class="products__img-wrapper">
+                    <img class="products__img" src="img/category-overalls.png" alt="Overalls">
+                </a>
+
+                <p class="products__name">Overalls</p>
+                <p class="products__price">&#36;110</p>
+
+            </li>
+            <li class="products__item">
+                <a href="" class="products__img-wrapper">
+                    <img class="products__img" src="img/jacket-4-1.png" alt="Jacket">
+                </a>
+
+                <p class="products__name">Jacket</p>
+                <p class="products__price">&#36;70</p>
+
+            </li>
+            <li class="products__item">
+                <a href="" class="products__img-wrapper">
+                    <img class="products__img" src="img/jacket-5-1.png" alt="Overalls">
+                </a>
+
+                <p class="products__name">Jacket</p>
+                <p class="products__price">&#36;60</p>
+
+            </li>
+        </ul>
+
+        <a href="" class="products__more more-btn">View all</a>
+    </div>
+</section>
 	</main>
 	<footer class="footer">
     <svg class="footer__logo" fill="#151c22" id="logo" data-name="logo" xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,41 @@
+.card {
+
+}
+
+.card__photo {
+    display: flex;// контролы и имедж враппер на горизонтальной оси
+    max-width: 540px;
+}
+
+.card__photo-control {
+    position: relative;
+    width: 54%;
+}
+
+.card__photo-control:last-child .card__photo-arrow {
+    transform: scale(-1,1);
+}
+
+.card__photo-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__photo-full {
+    margin-bottom: 10px;
+}
+
+.card__photo-preview {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.card__photo-preview-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card__photo-preview-img {
+
+}
