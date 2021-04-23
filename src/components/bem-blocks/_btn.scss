@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 218px;
-    height: 64px;
+    min-width: 218px;
+    min-height: 64px;
+    padding: 25px;
     background-color: $nimes-black;
 }
 
